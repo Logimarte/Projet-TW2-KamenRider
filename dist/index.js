@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // console.log('OK')
-var series_1 = require("./models/series");
+const series_1 = require("./models/series");
 // Ajouter une nouvelle série
-var newSeries = {
+const newSeries = {
     id: 7,
     title: "Kamen Rider X",
     year: 2024,
@@ -15,7 +15,7 @@ var newSeries = {
 // Supprimer une série par ID
 (0, series_1.deleteSeries)(1);
 // Ajouter un épisode à une série existante
-var newEpisode = { id: 3, title: "Episode 3: The Revelation", watched: false };
+const newEpisode = { id: 3, title: "Episode 3: The Revelation", watched: false };
 (0, series_1.addEpisode)(7, newEpisode);
 // Marquer un épisode comme regardé
 (0, series_1.markEpisodeAsWatched)(7, 3);

@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamen Rider Series</title>
+  <link rel="stylesheet" href="assets/style.css"> <!-- Si tu veux ajouter des styles -->
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon site</h1>
-    </header>
-    <main>
-        <p>Ceci est une page HTML de base avec une configuration responsive.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Mon Site. Tous droits réservés.</p>
-    </footer>
-    <script src="../dist/greeter.js"></script>
 
+  <!-- Barre de navigation -->
+  <nav>
+    <div class="nav-container">
+      <h1>Kamen Rider Series</h1> <!-- Titre de la page -->
+      <button id="loginBtn" class="login-btn">Connexion</button> <!-- Bouton connexion -->
+    </div>
+  </nav>
+
+  <!-- Contenu de la page -->
+  <main>
+    <h2>Bienvenue sur la page des séries Kamen Rider !</h2>
+
+    <!-- Formulaire de connexion caché -->
+    <div id="loginForm" class="login-form" style="display:none;">
+      <h3>Connexion</h3>
+      <form>
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Se connecter</button>
+      </form>
+    </div>
+
+    <div id="app">
+      <!-- Les séries seront affichées ici -->
+    </div>
+  </main>
+
+  <script src="dist/app.js"></script> <!-- Ajoute le fichier JS -->
 </body>
 </html>
