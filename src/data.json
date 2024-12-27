@@ -1,0 +1,60 @@
+{
+    "series": [
+      {
+        "id": 1,
+        "title": "Kamen Rider Kuuga",
+        "year": 2000,
+        "episodes": [
+          { "id": 1, "title": "The Transformation", "watched": false },
+          { "id": 2, "title": "The Shinjuku Ghost", "watched": false }
+        ]   
+      },
+      {
+        "id": 2,
+        "title": "Kamen Rider Agito",
+        "year": 2001,
+        "episodes": [
+          { "id": 1, "title": "The Awakening", "watched": false },
+          { "id": 2, "title": "Memories of Darkness", "watched": false }
+        ]
+       
+      },
+      {
+        "id": 3,
+        "title": "Kamen Rider Ryuki",
+        "year": 2002,
+        "episodes": [
+          { "id": 1, "title": "The Secret Story Begins", "watched": false },
+          { "id": 2, "title": "Contract", "watched": false }
+        ]
+        
+      },
+      {
+        "id": 4,
+        "title": "Kamen Rider Zero-One",
+        "year": 2019,
+        "episodes": [
+          { "id": 1, "title": "I’m a President and a Kamen Rider", "watched": false },
+          { "id": 2, "title": "AI Will Counterattack", "watched": false }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Kamen Rider Revice",
+        "year": 2021,
+        "episodes": [
+          { "id": 1, "title": "Family! Contract! Devil Whisper!", "watched": false },
+          { "id": 2, "title": "The Devil is Just a Bad Guy?", "watched": false }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Kamen Rider Geats",
+        "year": 2022,
+        "episodes": [
+          { "id": 1, "title": "Rider of Fate", "watched": false },
+          { "id": 2, "title": "Chance Meeting IX", "watched": false }
+        ]
+      }
+    ]
+} 
