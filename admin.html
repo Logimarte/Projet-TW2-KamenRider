@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Raffaele Martello">
   <title>Page Admin</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -16,5 +17,64 @@
   
     <h1>Bienvenue dans la page Admin</h1>
     <p>Vous avez accès à cette page car vous êtes administrateur.</p>
+  
+    <!-- Formulaire pour ajouter une nouvelle série -->
+    <h2>Ajouter une nouvelle série</h2>
+    <form id="addSeriesForm">
+        <label for="seriesTitle">Titre de la série :</label>
+        <input type="text" id="seriesTitle" required>
+
+        <label for="seriesYear">Année de la série :</label>
+        <input type="number" id="seriesYear" required>
+
+        <button type="submit">Ajouter la série</button>
+    </form>
+
+    <!-- Formulaire pour ajouter un épisode -->
+    <h2>Ajouter un épisode</h2>
+    <form id="addEpisodeForm">
+        <label for="episodeSeries">Choisissez une série :</label>
+        <select id="episodeSeries">
+            <!-- Les options seront ajoutées dynamiquement par le JavaScript -->
+        </select>
+
+        <label for="episodeTitle">Titre de l'épisode :</label>
+        <input type="text" id="episodeTitle" required>
+
+        <button type="submit">Ajouter l'épisode</button>
+    </form>
+
+    <!-- Formulaire pour supprimer une Série -->
+    <h2>Supprimer une série</h2>
+    <form id="deleteSeriesForm">
+        <label for="deleteSeries">Choisissez une série :</label>
+        <select id="deleteSeries">
+            <!-- Les options seront ajoutées dynamiquement par le JavaScript -->
+        </select>
+        <button type="submit">Supprimer la série</button>
+    </form>
+
+    <!-- Formulaire pour supprimer un épisode -->
+    <h2>Supprimer un épisode</h2>
+    <form id="deleteEpisodeForm">
+        <label for="deleteEpisodeSeries">Choisissez une série :</label>
+        <select id="deleteEpisodeSeries">
+            <!-- Les options seront ajoutées dynamiquement par le JavaScript -->
+        </select>
+
+        <label for="deleteEpisode">Choisissez un épisode :</label>
+        <select id="deleteEpisode">
+            <!-- Les options seront ajoutées dynamiquement en fonction de la série sélectionnée -->
+        </select>
+
+        <button type="submit">Supprimer l'épisode</button>
+    </form>
+
+    <div id="app">
+        <!-- Les séries et les épisodes seront affichées ici -->
+    </div>
+
+    <script src="dist/admin.js"></script>
+    <script src="dist/app.js"></script>
 </body>
 </html>
