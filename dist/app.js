@@ -10,10 +10,10 @@ function loadSeriesData() {
         return response.json();
     })
         .then(function (jsonData) {
-        data = jsonData; // Charger les données dans la variable `data`
+        data = jsonData;
         displaySeries();
         populateSeriesDropdown();
-        populateDeletionDropdowns(); // Remplir les menus déroulants de suppression
+        populateDeletionDropdowns();
     })
         .catch(function (error) {
         console.error('Erreur lors du chargement des données :', error);
@@ -26,7 +26,7 @@ function displaySeries() {
         console.error('Élément avec ID "app" introuvable.');
         return;
     }
-    appDiv.innerHTML = ''; // Vide l'élément avant d'ajouter le contenu
+    appDiv.innerHTML = '';
     if (data.series.length === 0) {
         appDiv.innerHTML = 'Aucune série à afficher.';
         return;
@@ -42,7 +42,7 @@ function displaySeries() {
         appDiv.appendChild(serieElement);
     });
 }
-// Remplir les menus déroulants avec les séries existantes
+// Menus déroulants avec les séries existantes
 function populateSeriesDropdown() {
     var dropdown = document.getElementById('episodeSeries');
     dropdown.innerHTML = '';
@@ -53,7 +53,7 @@ function populateSeriesDropdown() {
         dropdown.appendChild(option);
     });
 }
-// Remplir les menus déroulants pour la suppression
+// Menus déroulants pour la suppression
 function populateDeletionDropdowns() {
     var deleteSeriesDropdown = document.getElementById('deleteSeries');
     var deleteEpisodeSeriesDropdown = document.getElementById('deleteEpisodeSeries');

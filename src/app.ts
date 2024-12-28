@@ -45,7 +45,7 @@ function displaySeries(): void {
     return;
   }
 
-  appDiv.innerHTML = ''; // Vide l'élément avant d'ajouter le contenu
+  appDiv.innerHTML = '';
 
   if (data.series.length === 0) {
     appDiv.innerHTML = 'Aucune série à afficher.';
@@ -70,7 +70,7 @@ function displaySeries(): void {
   });
 }
 
-// Remplir les menus déroulants avec les séries existantes
+// Menus déroulants avec les séries existantes
 function populateSeriesDropdown(): void {
   const dropdown = document.getElementById('episodeSeries') as HTMLSelectElement;
   dropdown.innerHTML = '';
@@ -83,7 +83,7 @@ function populateSeriesDropdown(): void {
   });
 }
 
-// Remplir les menus déroulants pour la suppression
+// Menus déroulants pour la suppression
 function populateDeletionDropdowns(): void {
   const deleteSeriesDropdown = document.getElementById('deleteSeries') as HTMLSelectElement;
   const deleteEpisodeSeriesDropdown = document.getElementById('deleteEpisodeSeries') as HTMLSelectElement;
