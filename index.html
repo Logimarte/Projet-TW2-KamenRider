@@ -4,23 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kamen Rider Series</title>
-  <link rel="stylesheet" href="assets/style.css"> <!-- Si tu veux ajouter des styles -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-
   <!-- Barre de navigation -->
   <nav>
     <div class="nav-container">
-      <h1>Kamen Rider Series</h1> <!-- Titre de la page -->
-      <button id="loginBtn" class="login-btn">Connexion</button> <!-- Bouton connexion -->
+      <h1>Kamen Rider Series</h1>
+      <button id="loginBtn" class="login-btn">Connexion</button>
     </div>
   </nav>
-
-  <!-- Contenu de la page -->
   <main>
     <h2>Bienvenue sur la page des séries Kamen Rider !</h2>
 
-    <!-- Formulaire de connexion caché -->
+    <!-- Formulaire de connexion  qui est caché -->
     <div id="loginForm" class="login-form" style="display:none;">
       <h3>Connexion</h3>
       <form>
@@ -33,10 +30,10 @@
     </div>
 
     <div id="app">
-      <!-- Les séries seront affichées ici -->
+      <!-- Les séries et les épisodes seront affichées ici -->
     </div>
   </main>
-
-  <script src="dist/app.js"></script> <!-- Ajoute le fichier JS -->
+  <script src="dist/app.js"></script> <!-- script qui fait afficher le contenue de Data.json dans id:app -->
+  <script src="dist/connexion.js"></script> <!-- script qui fait fonctionner la connexion -->
 </body>
 </html>

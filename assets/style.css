@@ -59,3 +59,27 @@ body {
   ul li {
     padding: 0.3rem 0;
   }
+
+  #loginForm {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .admin-btn {
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-btn:hover {
+    background-color: darkgreen;
+  }
