@@ -83,3 +83,18 @@ body {
   .admin-btn:hover {
     background-color: darkgreen;
   }
+  .back-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .back-btn a{
+    text-decoration: none;
+  }
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
