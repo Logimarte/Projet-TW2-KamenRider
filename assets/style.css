@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  /* background-color: #f4f4f4; */
   background: url('img/Kamen\ rider\ Motif\ 1.png') repeat center;   
 }
 
@@ -17,6 +16,10 @@ header{
   height: auto;
 }
   
+#minibannerimg{
+  display: none;
+}
+
 nav {
   background-color: #333;
   color: white;
@@ -221,6 +224,7 @@ ul li {
   .formadmin{
     display: flex;
     flex-direction: column;
+    margin-bottom:10px;
   }
 
   .formadmin div{
@@ -247,6 +251,20 @@ ul li {
   } 
   .serie {
     border-radius: 0;
+    margin-top:10px;
   }
 
+}
+
+@media (max-width: 425px){
+  #bannerimg{
+    display: none; 
+  }
+    
+  #minibannerimg{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
 }
