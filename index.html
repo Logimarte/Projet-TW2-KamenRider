@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamen Rider Series</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon site</h1>
-    </header>
-    <main>
-        <p>Ceci est une page HTML de base avec une configuration responsive.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Mon Site. Tous droits réservés.</p>
-    </footer>
-    <script src="../dist/greeter.js"></script>
+  <header>
+    <img src="assets/img/Kamen rider Banner 6.png" id="bannerimg" alt="Image Bannière avec tout les kamen rider">
+    <img src="assets/img/Kamen rider Banner 7.png" id="minibannerimg" alt="Image Bannière Kamen Rider pour le mobile">
+    <!-- Barre de navigation -->
+    <nav>
+      <div class="nav-container">
+        <h1>Liste Serie Kamen Rider</h1>
+        <button id="loginBtn" class="login-btn">Connexion</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="contenttextwhite">
+      <h2>Bienvenue sur la page répertoriant la liste des épisodes des séries Kamen Rider !</h2>
+      <!-- message qui s'affiche uniquement quand l'utilisateur est déconnecté -->
+      <div id="logoutMessage" style="display:none;">
+        <p>Vous êtes actuellement déconnecté. Veuillez vous connecter pour accéder au contenu.</p>
+        <p><strong>Vous trouverez les identifiants admin et membre dans le fichier README."</strong></p>
+      </div>
+    </div>
+    <!-- Formulaire de connexion  qui est caché -->
+    <div id="loginForm" class="login-form" style="display:none;">
+      <h2>Connexion</h2>
+      <form id="formindex">
+        <div class="divform">
+          <label for="username">Username :</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="divform">
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Se connecter</button>
+      </form>
+    </div>
 
+    <div id="app" style="display:none;">
+      <!-- Les séries et les épisodes seront affichées ici -->
+    </div>
+  </main>
+
+  <script src="dist/app.js"></script> <!-- script qui fait afficher le contenue de Data.json dans id:app -->
+  <script src="dist/connexion.js"></script> <!-- script qui fait fonctionner la connexion -->
 </body>
 </html>

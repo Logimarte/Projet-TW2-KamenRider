@@ -1,0 +1,270 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('img/Kamen\ rider\ Motif\ 1.png') repeat center;   
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+#bannerimg{
+  width: 100%;
+  height: auto;
+}
+  
+#minibannerimg{
+  display: none;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 32px;
+  margin: 0;
+}
+  
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+nav h1 {
+  font-size: 27px;
+  margin: 0;
+}
+  
+h2{
+  margin:0;
+  padding: 32px;
+  font-size: 24px;
+  text-align: center;
+}
+
+#logoutMessage{
+  padding: 0 32px;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+strong{
+  color:rgb(250, 73, 73);
+}
+
+button.login-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  
+button.login-btn:hover {
+  background-color: #0056b3;
+}
+  
+.contenttextwhite{
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenttextwhite{
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.adminform{
+  display: flex;
+  flex-direction: column;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+.formadmin{
+  display: flex;
+  background-color: #535353;
+  padding: 20px ;
+  border-radius: 10px;
+}
+
+.formadmin button{
+  background-color: #007bff;
+  color: white;
+  padding: 7px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.formadmin button:hover{
+  background-color: #0056b3;
+}
+
+.formadmin label{
+  margin: 0 5px;
+}
+#app {
+  margin: 32px 132px;
+}
+  
+.serie {
+  background-color: rgb(228, 228, 228);
+  padding: 18px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+  
+.serie h3 {
+  margin-top: 0;
+}
+  
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+  
+ul li {
+  padding: 0.3rem 0;
+}
+
+#loginForm {
+  background: #535353;
+  padding: 16px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#loginForm h2 {
+  text-align: center;
+}
+
+#formindex{
+  display: flex;
+  flex-direction: column
+}
+
+#formindex .divform{
+  margin-bottom:20px;
+}
+
+#formindex button{
+  background-color: green;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.admin-btn {
+  background-color: green;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  
+.admin-btn:hover {
+  background-color: darkgreen;
+}
+
+.back-btn{
+  background-color: #007bff00;
+  color: white;
+  padding: 18px ;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-btn a{
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.back-btn:hover {
+  background-color: #0056b300;
+}
+
+.back-btn a:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1024px){
+
+  .formadmin{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+  }
+
+  .formadmin div{
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .nav-container h1 {
+    margin-bottom:10px;
+    text-align: center;
+  }
+  .nav-container button {
+    margin:10px 0;
+  }
+  #app {
+    margin: 0;
+  } 
+  .serie {
+    border-radius: 0;
+    margin-top:10px;
+  }
+
+}
+
+@media (max-width: 425px){
+  #bannerimg{
+    display: none; 
+  }
+    
+  #minibannerimg{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+}
