@@ -36,7 +36,7 @@ function displaySeries() {
         serieElement.classList.add('serie');
         serieElement.innerHTML = "\n      <h3>".concat(serie.title, " (").concat(serie.year, ")</h3>\n      <ul>\n        ").concat(serie.episodes
             .map(function (episode) {
-            return "<li>".concat(episode.title, " - ").concat(episode.watched ? 'Vu' : 'Non vu', "</li>");
+            return "<li>Ep".concat(episode.id, " - ").concat(episode.title, "</li>");
         })
             .join(''), "\n      </ul>\n    ");
         appDiv.appendChild(serieElement);

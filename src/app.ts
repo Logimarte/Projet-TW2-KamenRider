@@ -61,7 +61,7 @@ function displaySeries(): void {
         ${serie.episodes
           .map(
             (episode) =>
-              `<li>${episode.title} - ${episode.watched ? 'Vu' : 'Non vu'}</li>`
+              `<li>Ep${episode.id} - ${episode.title}</li>`
           )
           .join('')}
       </ul>

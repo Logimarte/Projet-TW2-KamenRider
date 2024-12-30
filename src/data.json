@@ -5,8 +5,11 @@
         "title": "Kamen Rider Kuuga",
         "year": 2000,
         "episodes": [
-          { "id": 1, "title": "The Transformation", "watched": false },
-          { "id": 2, "title": "The Shinjuku Ghost", "watched": false }
+          { "id": 1, "title": "Revival"},
+          { "id": 2, "title": "Transformation"},
+          { "id": 3, "title": "Tokyo"},
+          { "id": 4, "title": "Sprint"},
+          { "id": 5, "title": "Distance"}
         ]   
       },
       {
@@ -14,8 +17,11 @@
         "title": "Kamen Rider Agito",
         "year": 2001,
         "episodes": [
-          { "id": 1, "title": "The Awakening", "watched": false },
-          { "id": 2, "title": "Memories of Darkness", "watched": false }
+          { "id": 1, "title": "The Warrior's Awakening"},
+          { "id": 2, "title": "Blue Storm"},
+          { "id": 3, "title": "My Transformation"},
+          { "id": 4, "title": "Puzzle Decoding"},
+          { "id": 5, "title": "The Third Warrior"}
         ]
        
       },
@@ -24,36 +30,246 @@
         "title": "Kamen Rider Ryuki",
         "year": 2002,
         "episodes": [
-          { "id": 1, "title": "The Secret Story Begins", "watched": false },
-          { "id": 2, "title": "Contract", "watched": false }
+          { "id": 1, "title": "The Secret Story's Birth"},
+          { "id": 2, "title": "Giant Spider Counterattack"},
+          { "id": 3, "title": "School Ghost Story"},
+          { "id": 4, "title": "School Ghost Story 2"},
+          { "id": 5, "title": "The Monster's Antique Store"}
         ]
         
       },
       {
         "id": 4,
-        "title": "Kamen Rider Zero-One",
-        "year": 2019,
+        "title": "Kamen Rider 555",
+        "year": 2003,
         "episodes": [
-          { "id": 1, "title": "I’m a President and a Kamen Rider", "watched": false },
-          { "id": 2, "title": "AI Will Counterattack", "watched": false }
-        ]
+          { "id": 1, "title": "The Start of a Trip"},
+          { "id": 2, "title": "The Belt's Power"},
+          { "id": 3, "title": "The King's Sleep…"},
+          { "id": 4, "title": "My Name"},
+          { "id": 5, "title": "Original"}
+        ]   
       },
       {
         "id": 5,
-        "title": "Kamen Rider Revice",
-        "year": 2021,
+        "title": "Kamen Rider Blade",
+        "year": 2004,
         "episodes": [
-          { "id": 1, "title": "Family! Contract! Devil Whisper!", "watched": false },
-          { "id": 2, "title": "The Devil is Just a Bad Guy?", "watched": false }
+          { "id": 1, "title": "The Indigo Warrior"},
+          { "id": 2, "title": "The Mysterious Rider"},
+          { "id": 3, "title": "Their Secret…"},
+          { "id": 4, "title": "Immortality's Mysteries"},
+          { "id": 5, "title": "The Challenge to the Past"}
         ]
+       
       },
       {
         "id": 6,
+        "title": "Kamen Rider Hibiki",
+        "year": 2005,
+        "episodes": [
+          { "id": 1, "title": "The Echoing Oni"},
+          { "id": 2, "title": "The Howling Spider"},
+          { "id": 3, "title": "Falling Voice"},
+          { "id": 4, "title": "Running Ichiro"},
+          { "id": 5, "title": "Melting Sea"}
+        ]
+        
+      },
+      {
+        "id": 7,
+        "title": "Kamen Rider Kabuto",
+        "year": 2006,
+        "episodes": [
+          { "id": 1, "title": "The Strongest Man"},
+          { "id": 2, "title": "The First Two-Step Transformation"},
+          { "id": 3, "title": "I am Justice!!"},
+          { "id": 4, "title": "Love Explanation!!"},
+          { "id": 5, "title": "Order to Capture!!"}
+        ]   
+      },
+      {
+        "id": 8,
+        "title": "Kamen Rider Den-O",
+        "year": 2007,
+        "episodes": [
+          { "id": 1, "title": "I Have Arrived!"},
+          { "id": 2, "title": "Ride on Time"},
+          { "id": 3, "title": "Outlaw Momotaro"},
+          { "id": 4, "title": "Get Out, Oni! I am Serious"},
+          { "id": 5, "title": "Will You Let Me Reel You In?"}
+        ]
+       
+      },
+      {
+        "id": 9,
+        "title": "Kamen Rider Kiva",
+        "year": 2008,
+        "episodes": [
+          { "id": 1, "title": "Fate: Wake Up!"},
+          { "id": 2, "title": "Suite: Father and Son Violin"},
+          { "id": 3, "title": "Heroic: Perfect Hunter"},
+          { "id": 4, "title": "Reverie: Wild Blue"},
+          { "id": 5, "title": "Duet: Stalker Panic"}
+        ]
+        
+      },
+      {
+        "id": 10,
+        "title": "Kamen Rider Decade",
+        "year": 2009,
+        "episodes": [
+          { "id": 1, "title": "Rider War"},
+          { "id": 2, "title": "The World of Kuuga"}
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Kamen Rider W",
+        "year": 2009,
+        "episodes": [
+          { "id": 1, "title": "The W Search/Two Detectives in One"},
+          { "id": 2, "title": "The W Search/Those Who Make the City Cry"}
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Kamen Rider OOO",
+        "year": 2010,
+        "episodes": [
+          { "id": 1, "title": "Medals, Underwear, and the Mysterious Arm"},
+          { "id": 2, "title": "Desire, Ice Pops, and Presents"}
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Kamen Rider Fourze",
+        "year": 2011,
+        "episodes": [
+          { "id": 1, "title": "Youthful Transformation "},
+          { "id": 2, "title": "Space Superiority"}
+        ]   
+      },
+      {
+        "id": 14,
+        "title": "Kamen Rider Wizard",
+        "year": 2012,
+        "episodes": [
+          { "id": 1, "title": "The Ringed Magician"},
+          { "id": 2, "title": "I Want to Be a Magician"}
+        ]
+      
+      },
+      {
+        "id": 15,
+        "title": "Kamen Rider Gaim",
+        "year": 2013,
+        "episodes": [
+          { "id": 1, "title": "Transform! The Orange from the Sky!?"},
+          { "id": 2, "title": "Certain Kill! Pine Kick!"}
+        ]
+        
+      },
+      {
+        "id": 16,
+        "title": "Kamen Rider Drive",
+        "year": 2014,
+        "episodes": [
+          { "id": 1, "title": "Why Did My Time Stop?"},
+          { "id": 2, "title": "What is a Kamen Rider?"}
+        ]   
+      },
+      {
+        "id": 17,
+        "title": "Kamen Rider Ghost",
+        "year": 2015,
+        "episodes": [
+          { "id": 1, "title": "Eyes Open! It's Me!"},
+          { "id": 2, "title": "Blitz! Inventor King!"}
+        ]
+      
+      },
+      {
+        "id": 18,
+        "title": "Kamen Rider EX-Aid",
+        "year": 2016,
+        "episodes": [
+          { "id": 1, "title": "I'm a Kamen Rider!"},
+          { "id": 2, "title": "Another Prodigy with No Thank You?"}
+        ]
+        
+      },
+      {
+        "id": 19,
+        "title": "Kamen Rider Build",
+        "year": 2017,
+        "episodes": [
+          { "id": 1, "title": "That One with the Best Match"},
+          { "id": 2, "title": "The Innocent Runaway"}
+        ]   
+      },
+      {
+        "id": 20,
+        "title": "Kamen Rider Zi-O",
+        "year": 2018,
+        "episodes": [
+          { "id": 1, "title": "Kingdom 2068"},
+          { "id": 2, "title": "Best Match 2017"}
+        ]
+      
+      },
+      {
+        "id": 21,
+        "title": "Kamen Rider Zero-One",
+        "year": 2019,
+        "episodes": [
+          { "id": 1, "title": "I’m a President and a Kamen Rider"},
+          { "id": 2, "title": "Is AI the Enemy? Or an Ally?"}
+        ]
+      },
+      {
+        "id": 22,
+        "title": "Kamen Rider Saber",
+        "year": 2020,
+        "episodes": [
+          { "id": 1, "title": "In The Beginning, There Was a Flame Swordsman."},
+          { "id": 2, "title": "The Water Swordsman, Along With a Blue Lion."}
+        ]
+      },
+      {
+        "id": 23,
+        "title": "Kamen Rider Revice",
+        "year": 2021,
+        "episodes": [
+          { "id": 1, "title": "Family! Contract! The Demon Whispers!"},
+          { "id": 2, "title": "The Demon Is Just a Bad Guy!?"}
+        ]
+      },
+      {
+        "id": 24,
         "title": "Kamen Rider Geats",
         "year": 2022,
         "episodes": [
-          { "id": 1, "title": "Rider of Fate", "watched": false },
-          { "id": 2, "title": "Chance Meeting IX", "watched": false }
+          { "id": 1, "title": "Daybreak F: Invitation to the Rider"},
+          { "id": 2, "title": "Encounter I: Treasure Hunting and Thievery"}
+        ]
+      },
+      {
+        "id": 25,
+        "title": "Kamen Rider Gotchard",
+        "year": 2023,
+        "episodes": [
+          { "id": 1, "title": "Gotcha! Hopper1!"},
+          { "id": 2, "title": "Pursuit, Alchemy, Skebows!"}
+        ]
+      },
+      {
+        "id": 26,
+        "title": "Kamen Rider Gavv",
+        "year": 2024,
+        "episodes": [
+          { "id": 1, "title": "A Snack Kamen Rider!? "},
+          { "id": 2, "title": "Happy Zakuzakuchips"}
         ]
       }
     ]
